@@ -1,16 +1,50 @@
-# React + Vite
+# Foodpedia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and beautiful encyclopedia for exploring global dishes and recipes.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Routing**: [TanStack Router](https://tanstack.com/router)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **API Client**: [Axios](https://axios-http.com/)
 
-## React Compiler
+## 🧱 Components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Header**: Responsive navigation and branding.
+- **Footer**: Copyright and project information.
+- **Dish Cards**: Visual representation of dishes in the list.
 
-## Expanding the ESLint configuration
+## 📄 Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Home**: Browse a curated list of delicious meals.
+- **Dish Details**: In-depth view of ingredients, instructions, and video tutorials.
+
+## 🛠️ Start Guide
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository**
+
+   ```bash
+   git clone <repository-url>
+   cd foodpedia
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```

@@ -25,7 +25,7 @@ export const Header = () => {
 
   return (
     <div className="absolute left-0 right-0 top-5 h-20 w-full">
-      <header className={`fixed left-4 right-4 z-10 mx-auto flex max-w-7xl items-center justify-between gap-4 p-2 transition-all duration-300 md:left-8 md:right-8 md:p-4 ${isCompact ? 'rounded-3xl border border-[#f15a38] bg-white/90 shadow-lg shadow-orange-950/10 outline outline-4 outline-orange-200/50 backdrop-blur' : 'rounded-none border border-transparent bg-transparent outline outline-0 outline-transparent'}`}>
+      <header className={`fixed left-4 right-4 z-10 mx-auto flex max-w-7xl items-center justify-between gap-4 p-2 transition-all duration-300 md:left-8 md:right-8 md:p-4 ${isCompact ? 'rounded-3xl border border-[#f15a38] bg-white/90 shadow-lg shadow-orange-950/10 outline-4 outline-orange-200/50 backdrop-blur' : 'rounded-none border border-transparent bg-transparent outline-0 outline-transparent'}`}>
         <Link to="/" className="flex items-center gap-3">
           <span className="grid size-11 place-items-center rounded-full bg-[#f15a38] text-lg font-black text-white shadow-lg shadow-orange-300/40">
             F

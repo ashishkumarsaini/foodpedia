@@ -19,7 +19,7 @@ function Index() {
               {firstDish.name}
             </h1>
             <p className="mt-5 max-w-xl text-base leading-7 text-neutral-600 sm:text-lg">
-              {firstDish.instructions.slice(0, 150)}...
+              {firstDish.instructions[0]}...
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link
