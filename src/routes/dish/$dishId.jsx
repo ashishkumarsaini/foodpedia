@@ -41,17 +41,30 @@ function RouteComponent() {
           <div className="mt-5">
             <div>
               <h1 className="text-4xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">{formattedDish.name}</h1>
-              <div className="mt-10 flex items-center justify-between">
+              <div className="mt-3">
                 <p className="text-base font-medium text-neutral-500">{formattedDish.cusine} Cusine</p>
-                <div>
-                  <Link
-                    to="/dish/$dishId"
-                    className="rounded-full bg-[#f15a38] px-6 py-4 text-center text-sm font-black text-white shadow-xl shadow-orange-500/25"
-                  >
-                    Watch Video
-                  </Link>
-                </div>
               </div>
+            </div>
+          </div>
+
+          <div className='mt-7 flex items-center justify-end gap-4'>
+            <div>
+              <Link
+                to={formattedDish.source}
+                className="rounded-full bg-[#f15a38] px-6 py-4 text-center text-sm font-black text-white shadow-xl shadow-orange-500/25"
+                target="_blank"
+              >
+                Dish Source
+              </Link>
+            </div>
+            <div>
+              <Link
+                to={formattedDish.youtube}
+                className="rounded-full bg-[#181411] px-5 py-3 text-sm font-bold text-white shadow-xl shadow-neutral-950/15"
+                target="_blank"
+              >
+                Watch Video
+              </Link>
             </div>
           </div>
 

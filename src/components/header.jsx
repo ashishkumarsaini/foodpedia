@@ -33,10 +33,10 @@ export const Header = () => {
           <span className="text-xl font-black tracking-tight">Foodpedia</span>
         </Link>
         <nav className="hidden items-center gap-8 text-sm font-semibold text-neutral-500 md:flex">
-          <a className="text-[#181411]" href="/#special">
+          <Link className="text-[#181411]" to="/#special">
             Today's Special
-          </a>
-          <a href="/#popular">Popular</a>
+          </Link>
+          <Link to="/#popular">Popular</Link>
         </nav>
         <button className="rounded-full bg-[#181411] px-5 py-3 text-sm font-bold text-white shadow-xl shadow-neutral-950/15">
           Subscribe
